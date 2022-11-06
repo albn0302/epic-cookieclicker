@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Das epic cookieclicker 101</title>
+</head>
+
+<body>
+    <img class="hitmarker" id="follow"
+        src="https://preview.redd.it/0vadrmiizrw31.png?auto=webp&s=9eb5da1781d1b6e45ea79c308b26e295013752ed"
+        width="15px" height="15px" alt="hitmarker">
+    <div id="header">
+        <h1>Rainbow Frog Clicker 101</h1>
+        <h2 id="score">Score: <span id="target">0</span></h2>
+    </div>
+    <div id="main-img">
+        <img id="shrek" onclick="countScore()"
+            src="https://thumbs.gfycat.com/AdeptWholeIrishredandwhitesetter-size_restricted.gif" width="200px"
+            height="200px" alt="shrec">
+    </div>
+    <audio id="audio" src="./audio/[YT2mp3.info] - Hit Marker sound effect (320kbps).mp3"></audio>
+    <div id="cosmetics">
+        <img class="hidden" id="spinning-sheep" src="./images/minecraft-rainbow-sheep.gif" alt="Spinning Sheep Gif">
+        <img class="hidden" id="floating-sheep" src="./images/minecraft-sheep.gif" alt="Floating Sheep Gif">
+        <img class="hidden" id="kermit-dance" src="./images/kermit-icegif-3.gif" alt="Kermit Dance Gif">
+        <img class="hidden" id="dancing-pepe" src="./images/vgMnVL.gif" alt="Dancing Pepe Gif">
+        <img class="hidden" id="ya-boii" src="./images/YoungShowyKite-max-1mb.gif" alt="YA BOII Gif">
+    </div>
+    <section>
+        <h1>Market</h1>
+        <!-- <h3>Gameplay</h3>
+        <button>Multiplier</button> -->
+        <h3>Cosmetics</h3>
+        <!-- <button onclick="redHitmarker()">Red hitmarker</button>
+        <button onclick="blueHitmarker()">Blue hitmarker</button>
+        <button onclick="greenHitmarker()">Green hitmarker</button>
+        <button onclick="rgbHitmarker()">RGB hitmarker</button>
+        <br> -->
+        <button onclick="addSpinningSheep()">Spinning Sheep (10 points)</button>
+        <button onclick="addFloatingSheep()">Floating Sheep (25 points)</button>
+        <button onclick="addKermitDance()">Kermit Dance (50 points)</button>
+        <button onclick="addDancingPepe()">Dancing PePe (75 points)</button>
+        <button onclick="addYaBoii()">YA BOII (100 points)</button>
+        <br>
+        <!-- <button onclick="changeBg()">Change Background Color (200 points)</button> -->
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>

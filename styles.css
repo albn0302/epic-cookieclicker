@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#follow {
+    position: absolute;
+    text-align: center;
+    pointer-events: none;
+    opacity: 0;
+}
+
+#main-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    margin: 0 25rem;
+}
+
+#score {
+    margin: 0 10rem;
+}
+
+section {
+    background: rgb(198, 173, 101);
+}
+
+.hidden {
+    opacity: 0;
+}
+
+#cosmetics {
+    margin: 0 29rem;
+}
+
+#spinning-sheep {
+    width: 50px;
+    height: 50px;
+}
+
+#floating-sheep {
+    width: 50px;
+    height: 50px;
+}
+
+#kermit-dance {
+    width: 50px;
+    height: 50px;
+}
+
+#dancing-pepe {
+    width: 50px;
+    height: 50px;
+}
+
+#ya-boii {
+    width: 50px;
+    height: 50px;
+}
